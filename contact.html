@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문의하기 - 배재대학교 창업지원팀</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo" id="logoText">배재대 창업지원팀</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <!-- JS로 동적 생성됩니다 -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 페이지 헤더 -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title" id="contactTitle">문의 및 오시는 길</h1>
+            <p class="page-subtitle" id="contactDesc">배재대학교 창업지원팀 프로그램에 관심이 있다면 언제든지 문의해주세요.</p>
+        </div>
+    </section>
+
+    <!-- Contact 본문 -->
+    <section class="section contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3 class="contact-label">이메일</h3>
+                        <p class="contact-value" id="contactEmail">startup@pcu.ac.kr</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 class="contact-label">전화번호</h3>
+                        <p class="contact-value" id="contactPhone">042-000-0000</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 class="contact-label">위치</h3>
+                        <p class="contact-value" id="contactLocation">배재대학교 캠퍼스 내 ○○관 ○층 창업지원팀 사무실</p>
+                    </div>
+                </div>
+                <div class="contact-map" id="contactMap">
+                    <!-- 지도 iframe 또는 지도 이미지가 들어갈 자리입니다. -->
+                    <div class="map-placeholder">
+                        <p>지도 영역</p>
+                        <small>실제 지도는 구글맵 또는 카카오맵 iframe을 삽입하시면 됩니다.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <p class="footer-copyright" id="footerCopyright">© 배재대학교 창업지원팀 All rights reserved.</p>
+            <div class="footer-links" id="footerLinks">
+                <!-- JS로 동적 생성됩니다 -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
